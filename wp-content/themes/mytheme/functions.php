@@ -53,3 +53,107 @@ add_action('widgets_init', 'my_theme_widget_setup');
 
 /* Include Walker file */
 require get_template_directory() . '/inc/walker.php';
+
+/* Head Function */
+function my_theme_remove_wp_version(){
+  return '';
+}
+add_filter('the_generator', 'my_theme_remove_wp_version');
+
+/* Custom Post Types */
+function my_theme_post_type(){
+  $labels = array(
+    'name' => 'Portfolio',
+    'singular_name' => 'Protfolio',
+    'add_new' => 'Add Portfolio',
+    'all_items' => 'All Items',
+    'add_new_item' => 'Add Item',
+    'edit_item' => 'Edit Item',
+    'new_item' => 'New Item',
+    'view_item' => 'View Item',
+    'search_item' => 'Search Portfolio',
+    'not_found' => 'No items found',
+    'not_fpund_in_trash' => 'No items found in trash',
+    'parent_item_colon' => 'Parent Item'
+  );
+  $args = array(
+    'labels' => $labels,
+    'public' => true,
+    'has_archive' => true,
+    'publicly_queryable' =>true,
+    'query_var' => true,
+    'rewrite' => true,
+    'capability_type' => 'post',
+    'hierarchical' => false,
+    'supports' => array(
+                  'title',
+                  'editor',
+                  'excerpt',
+                  'thumbnail',
+                  'revisions',
+                ),
+    // 'taxonomies' => array('category', 'post_tag'),
+    'menu_position' => 5,
+    'exclude_from_search' => false
+  );
+  register_post_type('portfolio', $args);
+}
+add_action('init', 'my_theme_post_type');
+
+function my_theme_custom_taxonomies(){
+  //add new taxonomy hierarchical
+  $labels = array(
+    'name' => 'Types',
+    'singular_name' => 'Type',
+    'search_items' => 'Search Types',
+    'all_items' => 'All Types',
+    'parent_item' => 'Parent Type',
+    'parent_item_colon' => 'Parent Type:',
+    'edit_item' => 'Edit Type',
+    'update_item' => 'Update Type',
+    'add_new_item' => 'Add New Type',
+    'new_item_name' => 'New Type Name',
+    'menu_name' => 'Type'
+  );
+
+  $args = array(
+    'hierarchical' => true,
+    'labels' => $labels,
+    'show_ui' => true,
+    'show_admin_column' => true,
+    'query_var' => true,
+    'rewrite' => array('slug' => 'mytype'),
+  );
+
+  register_taxonomy('mytype', array('portfolio'), $args);
+
+  //add new taxonomy NOT hierarchical
+  register_taxonomy('software', 'portfolio', array(
+    'label' => 'Software',
+    'rewrite' => array('slug' => 'software'),
+    'hierarchical' => false,
+  ));
+
+}
+add_action( 'init', 'my_theme_custom_taxonomies');
+
+/* Custom Term Function */
+/**
+ * Get custom taxsonomies
+ * @param  int $id   [description]
+ * @param  string $term [description]
+ * @return string       [description]
+ */
+function my_theme_get_terms($id, $term){
+  $terms_list = wp_get_post_terms($id, $term);
+  $retVal = '';
+  $i = 0;
+  foreach ($terms_list as $term){
+    $i++;
+    if($i > 1){
+      $output .= ", ";
+    }
+    $output .= $term->name;
+  }
+  return $output;
+}

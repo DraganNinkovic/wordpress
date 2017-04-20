@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html <?php language_attributes(); ?>>
   <head>
-    <meta charset="utf-8">
-    <title>My First Theme</title>
+    <meta charset="<?php bloginfo('charset'); ?>">
+    <title><?php bloginfo('name'); ?><?php wp_title('|'); ?></title>
+    <meta name="description" content="<?php bloginfo('description'); ?>">
     <?php wp_head(); ?>
   </head>
   <?php
-    if (is_home()) {
+    if (is_front_page()) {
         $myClasses = array('my-class', 'theme-class');
     } else {
         $myClasses = array('not-blog-page');
@@ -17,8 +18,8 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
-          <nav class="navbar navbar-default">
-            <div class="container-fluid">
+          <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
               <div class="navbar-header">
                 <a class="navbar-brand" href="#">My Theme</a>
               </div>
@@ -35,8 +36,12 @@
               </div>
             </nav>
           </div>
-          <div class="search-form-container">
-            <?php get_search_form(); ?>
+          <div class="col-xs-12">
+            <div class="search-form-container">
+              <div class="container">
+                <?php get_search_form(); ?>
+              </div>
+            </div>
           </div>
         </div>
 

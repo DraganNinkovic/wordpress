@@ -1,0 +1,980 @@
+[19-Apr-2017 07:35:12 UTC] PHP Parse error:  syntax error, unexpected 'wp_deregister_script' (T_STRING) in /var/www/projects/wordpress/wp-content/themes/mytheme/functions.php on line 13
+[19-Apr-2017 08:06:58 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 08:06:58 UTC] PHP Stack trace:
+[19-Apr-2017 08:06:58 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 08:06:58 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 08:06:58 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 08:06:58 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 08:07:00 UTC] PHP Notice:  Theme without comments.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /var/www/projects/wordpress/wp-includes/functions.php on line 3960
+[19-Apr-2017 08:07:00 UTC] PHP Stack trace:
+[19-Apr-2017 08:07:00 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 08:07:00 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 08:07:00 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 08:07:00 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 08:07:00 UTC] PHP   5. comments_template() /var/www/projects/wordpress/wp-content/themes/mytheme/single.php:30
+[19-Apr-2017 08:07:00 UTC] PHP   6. require() /var/www/projects/wordpress/wp-includes/comment-template.php:1473
+[19-Apr-2017 08:07:00 UTC] PHP   7. _deprecated_file() /var/www/projects/wordpress/wp-includes/theme-compat/comments.php:16
+[19-Apr-2017 08:07:00 UTC] PHP   8. trigger_error() /var/www/projects/wordpress/wp-includes/functions.php:3960
+[19-Apr-2017 08:07:04 UTC] PHP Notice:  Theme without comments.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /var/www/projects/wordpress/wp-includes/functions.php on line 3960
+[19-Apr-2017 08:07:04 UTC] PHP Stack trace:
+[19-Apr-2017 08:07:04 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 08:07:04 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 08:07:04 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 08:07:04 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 08:07:04 UTC] PHP   5. comments_template() /var/www/projects/wordpress/wp-content/themes/mytheme/single.php:30
+[19-Apr-2017 08:07:04 UTC] PHP   6. require() /var/www/projects/wordpress/wp-includes/comment-template.php:1473
+[19-Apr-2017 08:07:04 UTC] PHP   7. _deprecated_file() /var/www/projects/wordpress/wp-includes/theme-compat/comments.php:16
+[19-Apr-2017 08:07:04 UTC] PHP   8. trigger_error() /var/www/projects/wordpress/wp-includes/functions.php:3960
+[19-Apr-2017 08:07:04 UTC] PHP Notice:  Theme without comments.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /var/www/projects/wordpress/wp-includes/functions.php on line 3960
+[19-Apr-2017 08:07:04 UTC] PHP Stack trace:
+[19-Apr-2017 08:07:04 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 08:07:04 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 08:07:04 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 08:07:04 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 08:07:04 UTC] PHP   5. comments_template() /var/www/projects/wordpress/wp-content/themes/mytheme/single.php:30
+[19-Apr-2017 08:07:04 UTC] PHP   6. require() /var/www/projects/wordpress/wp-includes/comment-template.php:1473
+[19-Apr-2017 08:07:04 UTC] PHP   7. _deprecated_file() /var/www/projects/wordpress/wp-includes/theme-compat/comments.php:16
+[19-Apr-2017 08:07:04 UTC] PHP   8. trigger_error() /var/www/projects/wordpress/wp-includes/functions.php:3960
+[19-Apr-2017 08:07:07 UTC] PHP Notice:  Theme without comments.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /var/www/projects/wordpress/wp-includes/functions.php on line 3960
+[19-Apr-2017 08:07:07 UTC] PHP Stack trace:
+[19-Apr-2017 08:07:07 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 08:07:07 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 08:07:07 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 08:07:07 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 08:07:07 UTC] PHP   5. comments_template() /var/www/projects/wordpress/wp-content/themes/mytheme/single.php:30
+[19-Apr-2017 08:07:07 UTC] PHP   6. require() /var/www/projects/wordpress/wp-includes/comment-template.php:1473
+[19-Apr-2017 08:07:07 UTC] PHP   7. _deprecated_file() /var/www/projects/wordpress/wp-includes/theme-compat/comments.php:16
+[19-Apr-2017 08:07:07 UTC] PHP   8. trigger_error() /var/www/projects/wordpress/wp-includes/functions.php:3960
+[19-Apr-2017 08:07:08 UTC] PHP Notice:  Theme without comments.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /var/www/projects/wordpress/wp-includes/functions.php on line 3960
+[19-Apr-2017 08:07:08 UTC] PHP Stack trace:
+[19-Apr-2017 08:07:08 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 08:07:08 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 08:07:08 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 08:07:08 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 08:07:08 UTC] PHP   5. comments_template() /var/www/projects/wordpress/wp-content/themes/mytheme/single.php:30
+[19-Apr-2017 08:07:08 UTC] PHP   6. require() /var/www/projects/wordpress/wp-includes/comment-template.php:1473
+[19-Apr-2017 08:07:08 UTC] PHP   7. _deprecated_file() /var/www/projects/wordpress/wp-includes/theme-compat/comments.php:16
+[19-Apr-2017 08:07:08 UTC] PHP   8. trigger_error() /var/www/projects/wordpress/wp-includes/functions.php:3960
+[19-Apr-2017 08:07:09 UTC] PHP Notice:  Theme without comments.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /var/www/projects/wordpress/wp-includes/functions.php on line 3960
+[19-Apr-2017 08:07:09 UTC] PHP Stack trace:
+[19-Apr-2017 08:07:09 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 08:07:09 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 08:07:09 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 08:07:09 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 08:07:09 UTC] PHP   5. comments_template() /var/www/projects/wordpress/wp-content/themes/mytheme/single.php:30
+[19-Apr-2017 08:07:09 UTC] PHP   6. require() /var/www/projects/wordpress/wp-includes/comment-template.php:1473
+[19-Apr-2017 08:07:09 UTC] PHP   7. _deprecated_file() /var/www/projects/wordpress/wp-includes/theme-compat/comments.php:16
+[19-Apr-2017 08:07:09 UTC] PHP   8. trigger_error() /var/www/projects/wordpress/wp-includes/functions.php:3960
+[19-Apr-2017 08:07:09 UTC] PHP Notice:  Theme without comments.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /var/www/projects/wordpress/wp-includes/functions.php on line 3960
+[19-Apr-2017 08:07:09 UTC] PHP Stack trace:
+[19-Apr-2017 08:07:09 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 08:07:09 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 08:07:09 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 08:07:09 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 08:07:09 UTC] PHP   5. comments_template() /var/www/projects/wordpress/wp-content/themes/mytheme/single.php:30
+[19-Apr-2017 08:07:09 UTC] PHP   6. require() /var/www/projects/wordpress/wp-includes/comment-template.php:1473
+[19-Apr-2017 08:07:09 UTC] PHP   7. _deprecated_file() /var/www/projects/wordpress/wp-includes/theme-compat/comments.php:16
+[19-Apr-2017 08:07:09 UTC] PHP   8. trigger_error() /var/www/projects/wordpress/wp-includes/functions.php:3960
+[19-Apr-2017 08:08:04 UTC] PHP Notice:  Theme without comments.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /var/www/projects/wordpress/wp-includes/functions.php on line 3960
+[19-Apr-2017 08:08:04 UTC] PHP Stack trace:
+[19-Apr-2017 08:08:04 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 08:08:04 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 08:08:04 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 08:08:04 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 08:08:04 UTC] PHP   5. comments_template() /var/www/projects/wordpress/wp-content/themes/mytheme/single.php:30
+[19-Apr-2017 08:08:04 UTC] PHP   6. require() /var/www/projects/wordpress/wp-includes/comment-template.php:1473
+[19-Apr-2017 08:08:04 UTC] PHP   7. _deprecated_file() /var/www/projects/wordpress/wp-includes/theme-compat/comments.php:16
+[19-Apr-2017 08:08:04 UTC] PHP   8. trigger_error() /var/www/projects/wordpress/wp-includes/functions.php:3960
+[19-Apr-2017 08:08:05 UTC] PHP Notice:  Theme without comments.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /var/www/projects/wordpress/wp-includes/functions.php on line 3960
+[19-Apr-2017 08:08:05 UTC] PHP Stack trace:
+[19-Apr-2017 08:08:05 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 08:08:05 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 08:08:05 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 08:08:05 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 08:08:05 UTC] PHP   5. comments_template() /var/www/projects/wordpress/wp-content/themes/mytheme/single.php:30
+[19-Apr-2017 08:08:05 UTC] PHP   6. require() /var/www/projects/wordpress/wp-includes/comment-template.php:1473
+[19-Apr-2017 08:08:05 UTC] PHP   7. _deprecated_file() /var/www/projects/wordpress/wp-includes/theme-compat/comments.php:16
+[19-Apr-2017 08:08:05 UTC] PHP   8. trigger_error() /var/www/projects/wordpress/wp-includes/functions.php:3960
+[19-Apr-2017 08:10:13 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 08:10:13 UTC] PHP Stack trace:
+[19-Apr-2017 08:10:13 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 08:10:13 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 08:10:13 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 08:10:13 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 08:10:16 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 08:10:16 UTC] PHP Stack trace:
+[19-Apr-2017 08:10:16 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 08:10:16 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 08:10:16 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 08:10:16 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 08:10:35 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 08:10:35 UTC] PHP Stack trace:
+[19-Apr-2017 08:10:35 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 08:10:35 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 08:10:35 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 08:10:35 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 08:10:37 UTC] PHP Notice:  Theme without comments.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /var/www/projects/wordpress/wp-includes/functions.php on line 3960
+[19-Apr-2017 08:10:37 UTC] PHP Stack trace:
+[19-Apr-2017 08:10:37 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 08:10:37 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 08:10:37 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 08:10:37 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 08:10:37 UTC] PHP   5. comments_template() /var/www/projects/wordpress/wp-content/themes/mytheme/single.php:30
+[19-Apr-2017 08:10:37 UTC] PHP   6. require() /var/www/projects/wordpress/wp-includes/comment-template.php:1473
+[19-Apr-2017 08:10:37 UTC] PHP   7. _deprecated_file() /var/www/projects/wordpress/wp-includes/theme-compat/comments.php:16
+[19-Apr-2017 08:10:37 UTC] PHP   8. trigger_error() /var/www/projects/wordpress/wp-includes/functions.php:3960
+[19-Apr-2017 08:11:10 UTC] PHP Notice:  Theme without comments.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /var/www/projects/wordpress/wp-includes/functions.php on line 3960
+[19-Apr-2017 08:11:10 UTC] PHP Stack trace:
+[19-Apr-2017 08:11:10 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 08:11:10 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 08:11:10 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 08:11:10 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 08:11:10 UTC] PHP   5. comments_template() /var/www/projects/wordpress/wp-content/themes/mytheme/single.php:30
+[19-Apr-2017 08:11:10 UTC] PHP   6. require() /var/www/projects/wordpress/wp-includes/comment-template.php:1473
+[19-Apr-2017 08:11:10 UTC] PHP   7. _deprecated_file() /var/www/projects/wordpress/wp-includes/theme-compat/comments.php:16
+[19-Apr-2017 08:11:10 UTC] PHP   8. trigger_error() /var/www/projects/wordpress/wp-includes/functions.php:3960
+[19-Apr-2017 08:11:17 UTC] PHP Notice:  Theme without comments.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /var/www/projects/wordpress/wp-includes/functions.php on line 3960
+[19-Apr-2017 08:11:17 UTC] PHP Stack trace:
+[19-Apr-2017 08:11:17 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 08:11:17 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 08:11:17 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 08:11:17 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 08:11:17 UTC] PHP   5. comments_template() /var/www/projects/wordpress/wp-content/themes/mytheme/single.php:30
+[19-Apr-2017 08:11:17 UTC] PHP   6. require() /var/www/projects/wordpress/wp-includes/comment-template.php:1473
+[19-Apr-2017 08:11:17 UTC] PHP   7. _deprecated_file() /var/www/projects/wordpress/wp-includes/theme-compat/comments.php:16
+[19-Apr-2017 08:11:17 UTC] PHP   8. trigger_error() /var/www/projects/wordpress/wp-includes/functions.php:3960
+[19-Apr-2017 08:11:26 UTC] PHP Notice:  Theme without comments.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /var/www/projects/wordpress/wp-includes/functions.php on line 3960
+[19-Apr-2017 08:11:26 UTC] PHP Stack trace:
+[19-Apr-2017 08:11:26 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 08:11:26 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 08:11:26 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 08:11:26 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 08:11:26 UTC] PHP   5. comments_template() /var/www/projects/wordpress/wp-content/themes/mytheme/single.php:30
+[19-Apr-2017 08:11:26 UTC] PHP   6. require() /var/www/projects/wordpress/wp-includes/comment-template.php:1473
+[19-Apr-2017 08:11:26 UTC] PHP   7. _deprecated_file() /var/www/projects/wordpress/wp-includes/theme-compat/comments.php:16
+[19-Apr-2017 08:11:26 UTC] PHP   8. trigger_error() /var/www/projects/wordpress/wp-includes/functions.php:3960
+[19-Apr-2017 08:11:34 UTC] PHP Notice:  Theme without comments.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /var/www/projects/wordpress/wp-includes/functions.php on line 3960
+[19-Apr-2017 08:11:34 UTC] PHP Stack trace:
+[19-Apr-2017 08:11:34 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 08:11:34 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 08:11:34 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 08:11:34 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 08:11:34 UTC] PHP   5. comments_template() /var/www/projects/wordpress/wp-content/themes/mytheme/single.php:30
+[19-Apr-2017 08:11:34 UTC] PHP   6. require() /var/www/projects/wordpress/wp-includes/comment-template.php:1473
+[19-Apr-2017 08:11:34 UTC] PHP   7. _deprecated_file() /var/www/projects/wordpress/wp-includes/theme-compat/comments.php:16
+[19-Apr-2017 08:11:34 UTC] PHP   8. trigger_error() /var/www/projects/wordpress/wp-includes/functions.php:3960
+[19-Apr-2017 08:12:54 UTC] PHP Notice:  Theme without comments.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /var/www/projects/wordpress/wp-includes/functions.php on line 3960
+[19-Apr-2017 08:12:54 UTC] PHP Stack trace:
+[19-Apr-2017 08:12:54 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 08:12:54 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 08:12:54 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 08:12:54 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 08:12:54 UTC] PHP   5. comments_template() /var/www/projects/wordpress/wp-content/themes/mytheme/single.php:30
+[19-Apr-2017 08:12:54 UTC] PHP   6. require() /var/www/projects/wordpress/wp-includes/comment-template.php:1473
+[19-Apr-2017 08:12:54 UTC] PHP   7. _deprecated_file() /var/www/projects/wordpress/wp-includes/theme-compat/comments.php:16
+[19-Apr-2017 08:12:54 UTC] PHP   8. trigger_error() /var/www/projects/wordpress/wp-includes/functions.php:3960
+[19-Apr-2017 08:15:11 UTC] PHP Notice:  Theme without comments.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /var/www/projects/wordpress/wp-includes/functions.php on line 3960
+[19-Apr-2017 08:15:11 UTC] PHP Stack trace:
+[19-Apr-2017 08:15:11 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 08:15:11 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 08:15:11 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 08:15:11 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 08:15:11 UTC] PHP   5. comments_template() /var/www/projects/wordpress/wp-content/themes/mytheme/single.php:30
+[19-Apr-2017 08:15:11 UTC] PHP   6. require() /var/www/projects/wordpress/wp-includes/comment-template.php:1473
+[19-Apr-2017 08:15:11 UTC] PHP   7. _deprecated_file() /var/www/projects/wordpress/wp-includes/theme-compat/comments.php:16
+[19-Apr-2017 08:15:11 UTC] PHP   8. trigger_error() /var/www/projects/wordpress/wp-includes/functions.php:3960
+[19-Apr-2017 08:15:21 UTC] PHP Notice:  Theme without comments.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /var/www/projects/wordpress/wp-includes/functions.php on line 3960
+[19-Apr-2017 08:15:21 UTC] PHP Stack trace:
+[19-Apr-2017 08:15:21 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 08:15:21 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 08:15:21 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 08:15:21 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 08:15:21 UTC] PHP   5. comments_template() /var/www/projects/wordpress/wp-content/themes/mytheme/single.php:30
+[19-Apr-2017 08:15:21 UTC] PHP   6. require() /var/www/projects/wordpress/wp-includes/comment-template.php:1473
+[19-Apr-2017 08:15:21 UTC] PHP   7. _deprecated_file() /var/www/projects/wordpress/wp-includes/theme-compat/comments.php:16
+[19-Apr-2017 08:15:21 UTC] PHP   8. trigger_error() /var/www/projects/wordpress/wp-includes/functions.php:3960
+[19-Apr-2017 08:16:17 UTC] PHP Notice:  Theme without comments.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /var/www/projects/wordpress/wp-includes/functions.php on line 3960
+[19-Apr-2017 08:16:17 UTC] PHP Stack trace:
+[19-Apr-2017 08:16:17 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 08:16:17 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 08:16:17 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 08:16:17 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 08:16:17 UTC] PHP   5. comments_template() /var/www/projects/wordpress/wp-content/themes/mytheme/single.php:30
+[19-Apr-2017 08:16:17 UTC] PHP   6. require() /var/www/projects/wordpress/wp-includes/comment-template.php:1473
+[19-Apr-2017 08:16:17 UTC] PHP   7. _deprecated_file() /var/www/projects/wordpress/wp-includes/theme-compat/comments.php:16
+[19-Apr-2017 08:16:17 UTC] PHP   8. trigger_error() /var/www/projects/wordpress/wp-includes/functions.php:3960
+[19-Apr-2017 08:20:16 UTC] PHP Notice:  Theme without comments.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /var/www/projects/wordpress/wp-includes/functions.php on line 3960
+[19-Apr-2017 08:20:16 UTC] PHP Stack trace:
+[19-Apr-2017 08:20:16 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 08:20:16 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 08:20:16 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 08:20:16 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 08:20:16 UTC] PHP   5. comments_template() /var/www/projects/wordpress/wp-content/themes/mytheme/single.php:30
+[19-Apr-2017 08:20:16 UTC] PHP   6. require() /var/www/projects/wordpress/wp-includes/comment-template.php:1473
+[19-Apr-2017 08:20:16 UTC] PHP   7. _deprecated_file() /var/www/projects/wordpress/wp-includes/theme-compat/comments.php:16
+[19-Apr-2017 08:20:16 UTC] PHP   8. trigger_error() /var/www/projects/wordpress/wp-includes/functions.php:3960
+[19-Apr-2017 08:21:19 UTC] PHP Notice:  Theme without comments.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /var/www/projects/wordpress/wp-includes/functions.php on line 3960
+[19-Apr-2017 08:21:19 UTC] PHP Stack trace:
+[19-Apr-2017 08:21:19 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 08:21:19 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 08:21:19 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 08:21:19 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 08:21:19 UTC] PHP   5. comments_template() /var/www/projects/wordpress/wp-content/themes/mytheme/single.php:30
+[19-Apr-2017 08:21:19 UTC] PHP   6. require() /var/www/projects/wordpress/wp-includes/comment-template.php:1473
+[19-Apr-2017 08:21:19 UTC] PHP   7. _deprecated_file() /var/www/projects/wordpress/wp-includes/theme-compat/comments.php:16
+[19-Apr-2017 08:21:19 UTC] PHP   8. trigger_error() /var/www/projects/wordpress/wp-includes/functions.php:3960
+[19-Apr-2017 08:21:59 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 08:21:59 UTC] PHP Stack trace:
+[19-Apr-2017 08:21:59 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 08:21:59 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 08:21:59 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 08:21:59 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 08:22:03 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 08:22:03 UTC] PHP Stack trace:
+[19-Apr-2017 08:22:03 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 08:22:03 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 08:22:03 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 08:22:03 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 08:22:04 UTC] PHP Notice:  Theme without comments.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /var/www/projects/wordpress/wp-includes/functions.php on line 3960
+[19-Apr-2017 08:22:04 UTC] PHP Stack trace:
+[19-Apr-2017 08:22:04 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 08:22:04 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 08:22:04 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 08:22:04 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 08:22:04 UTC] PHP   5. comments_template() /var/www/projects/wordpress/wp-content/themes/mytheme/single.php:30
+[19-Apr-2017 08:22:04 UTC] PHP   6. require() /var/www/projects/wordpress/wp-includes/comment-template.php:1473
+[19-Apr-2017 08:22:04 UTC] PHP   7. _deprecated_file() /var/www/projects/wordpress/wp-includes/theme-compat/comments.php:16
+[19-Apr-2017 08:22:04 UTC] PHP   8. trigger_error() /var/www/projects/wordpress/wp-includes/functions.php:3960
+[19-Apr-2017 08:24:28 UTC] PHP Notice:  Theme without comments.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /var/www/projects/wordpress/wp-includes/functions.php on line 3960
+[19-Apr-2017 08:24:28 UTC] PHP Stack trace:
+[19-Apr-2017 08:24:28 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 08:24:28 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 08:24:28 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 08:24:28 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 08:24:28 UTC] PHP   5. comments_template() /var/www/projects/wordpress/wp-content/themes/mytheme/single.php:30
+[19-Apr-2017 08:24:28 UTC] PHP   6. require() /var/www/projects/wordpress/wp-includes/comment-template.php:1473
+[19-Apr-2017 08:24:28 UTC] PHP   7. _deprecated_file() /var/www/projects/wordpress/wp-includes/theme-compat/comments.php:16
+[19-Apr-2017 08:24:28 UTC] PHP   8. trigger_error() /var/www/projects/wordpress/wp-includes/functions.php:3960
+[19-Apr-2017 08:31:13 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 08:31:13 UTC] PHP Stack trace:
+[19-Apr-2017 08:31:13 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 08:31:13 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 08:31:13 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 08:31:13 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 08:31:19 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 08:31:19 UTC] PHP Stack trace:
+[19-Apr-2017 08:31:19 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 08:31:19 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 08:31:19 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 08:31:19 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 08:32:08 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 08:32:08 UTC] PHP Stack trace:
+[19-Apr-2017 08:32:08 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 08:32:08 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 08:32:08 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 08:32:08 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 08:32:24 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 08:32:24 UTC] PHP Stack trace:
+[19-Apr-2017 08:32:24 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 08:32:24 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 08:32:24 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 08:32:24 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 08:32:34 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 08:32:34 UTC] PHP Stack trace:
+[19-Apr-2017 08:32:34 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 08:32:34 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 08:32:34 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 08:32:34 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 08:33:04 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 08:33:04 UTC] PHP Stack trace:
+[19-Apr-2017 08:33:04 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 08:33:04 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 08:33:04 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 08:33:04 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 08:34:03 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 08:34:03 UTC] PHP Stack trace:
+[19-Apr-2017 08:34:03 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 08:34:03 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 08:34:03 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 08:34:03 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 08:34:22 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 08:34:22 UTC] PHP Stack trace:
+[19-Apr-2017 08:34:22 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 08:34:22 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 08:34:22 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 08:34:22 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 08:34:24 UTC] PHP Notice:  Theme without comments.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /var/www/projects/wordpress/wp-includes/functions.php on line 3960
+[19-Apr-2017 08:34:24 UTC] PHP Stack trace:
+[19-Apr-2017 08:34:24 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 08:34:24 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 08:34:24 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 08:34:24 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 08:34:24 UTC] PHP   5. comments_template() /var/www/projects/wordpress/wp-content/themes/mytheme/single.php:30
+[19-Apr-2017 08:34:24 UTC] PHP   6. require() /var/www/projects/wordpress/wp-includes/comment-template.php:1473
+[19-Apr-2017 08:34:24 UTC] PHP   7. _deprecated_file() /var/www/projects/wordpress/wp-includes/theme-compat/comments.php:16
+[19-Apr-2017 08:34:24 UTC] PHP   8. trigger_error() /var/www/projects/wordpress/wp-includes/functions.php:3960
+[19-Apr-2017 08:36:31 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 08:36:31 UTC] PHP Stack trace:
+[19-Apr-2017 08:36:31 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 08:36:31 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 08:36:31 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 08:36:31 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 08:36:34 UTC] PHP Notice:  Theme without comments.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /var/www/projects/wordpress/wp-includes/functions.php on line 3960
+[19-Apr-2017 08:36:34 UTC] PHP Stack trace:
+[19-Apr-2017 08:36:34 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 08:36:34 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 08:36:34 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 08:36:34 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 08:36:34 UTC] PHP   5. comments_template() /var/www/projects/wordpress/wp-content/themes/mytheme/single.php:30
+[19-Apr-2017 08:36:34 UTC] PHP   6. require() /var/www/projects/wordpress/wp-includes/comment-template.php:1473
+[19-Apr-2017 08:36:34 UTC] PHP   7. _deprecated_file() /var/www/projects/wordpress/wp-includes/theme-compat/comments.php:16
+[19-Apr-2017 08:36:34 UTC] PHP   8. trigger_error() /var/www/projects/wordpress/wp-includes/functions.php:3960
+[19-Apr-2017 08:37:32 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 08:37:32 UTC] PHP Stack trace:
+[19-Apr-2017 08:37:32 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 08:37:32 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 08:37:32 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 08:37:32 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 08:37:35 UTC] PHP Notice:  Theme without comments.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /var/www/projects/wordpress/wp-includes/functions.php on line 3960
+[19-Apr-2017 08:37:35 UTC] PHP Stack trace:
+[19-Apr-2017 08:37:35 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 08:37:35 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 08:37:35 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 08:37:35 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 08:37:35 UTC] PHP   5. comments_template() /var/www/projects/wordpress/wp-content/themes/mytheme/single.php:30
+[19-Apr-2017 08:37:35 UTC] PHP   6. require() /var/www/projects/wordpress/wp-includes/comment-template.php:1473
+[19-Apr-2017 08:37:35 UTC] PHP   7. _deprecated_file() /var/www/projects/wordpress/wp-includes/theme-compat/comments.php:16
+[19-Apr-2017 08:37:35 UTC] PHP   8. trigger_error() /var/www/projects/wordpress/wp-includes/functions.php:3960
+[19-Apr-2017 08:41:31 UTC] PHP Notice:  Theme without comments.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /var/www/projects/wordpress/wp-includes/functions.php on line 3960
+[19-Apr-2017 08:41:31 UTC] PHP Stack trace:
+[19-Apr-2017 08:41:31 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 08:41:31 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 08:41:31 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 08:41:31 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 08:41:31 UTC] PHP   5. comments_template() /var/www/projects/wordpress/wp-content/themes/mytheme/single.php:30
+[19-Apr-2017 08:41:31 UTC] PHP   6. require() /var/www/projects/wordpress/wp-includes/comment-template.php:1473
+[19-Apr-2017 08:41:31 UTC] PHP   7. _deprecated_file() /var/www/projects/wordpress/wp-includes/theme-compat/comments.php:16
+[19-Apr-2017 08:41:31 UTC] PHP   8. trigger_error() /var/www/projects/wordpress/wp-includes/functions.php:3960
+[19-Apr-2017 08:41:43 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 08:41:43 UTC] PHP Stack trace:
+[19-Apr-2017 08:41:43 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 08:41:43 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 08:41:43 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 08:41:43 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 08:48:13 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 08:48:13 UTC] PHP Stack trace:
+[19-Apr-2017 08:48:13 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 08:48:13 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 08:48:13 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 08:48:13 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 08:48:17 UTC] PHP Notice:  Theme without comments.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /var/www/projects/wordpress/wp-includes/functions.php on line 3960
+[19-Apr-2017 08:48:17 UTC] PHP Stack trace:
+[19-Apr-2017 08:48:17 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 08:48:17 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 08:48:17 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 08:48:17 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 08:48:17 UTC] PHP   5. comments_template() /var/www/projects/wordpress/wp-content/themes/mytheme/single.php:30
+[19-Apr-2017 08:48:17 UTC] PHP   6. require() /var/www/projects/wordpress/wp-includes/comment-template.php:1473
+[19-Apr-2017 08:48:17 UTC] PHP   7. _deprecated_file() /var/www/projects/wordpress/wp-includes/theme-compat/comments.php:16
+[19-Apr-2017 08:48:17 UTC] PHP   8. trigger_error() /var/www/projects/wordpress/wp-includes/functions.php:3960
+[19-Apr-2017 08:52:22 UTC] PHP Notice:  Theme without comments.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /var/www/projects/wordpress/wp-includes/functions.php on line 3960
+[19-Apr-2017 08:52:22 UTC] PHP Stack trace:
+[19-Apr-2017 08:52:22 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 08:52:22 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 08:52:22 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 08:52:22 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 08:52:22 UTC] PHP   5. comments_template() /var/www/projects/wordpress/wp-content/themes/mytheme/single.php:30
+[19-Apr-2017 08:52:22 UTC] PHP   6. require() /var/www/projects/wordpress/wp-includes/comment-template.php:1473
+[19-Apr-2017 08:52:22 UTC] PHP   7. _deprecated_file() /var/www/projects/wordpress/wp-includes/theme-compat/comments.php:16
+[19-Apr-2017 08:52:22 UTC] PHP   8. trigger_error() /var/www/projects/wordpress/wp-includes/functions.php:3960
+[19-Apr-2017 08:55:22 UTC] PHP Notice:  Theme without comments.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /var/www/projects/wordpress/wp-includes/functions.php on line 3960
+[19-Apr-2017 08:55:22 UTC] PHP Stack trace:
+[19-Apr-2017 08:55:22 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 08:55:22 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 08:55:22 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 08:55:22 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 08:55:22 UTC] PHP   5. comments_template() /var/www/projects/wordpress/wp-content/themes/mytheme/single.php:30
+[19-Apr-2017 08:55:22 UTC] PHP   6. require() /var/www/projects/wordpress/wp-includes/comment-template.php:1473
+[19-Apr-2017 08:55:22 UTC] PHP   7. _deprecated_file() /var/www/projects/wordpress/wp-includes/theme-compat/comments.php:16
+[19-Apr-2017 08:55:22 UTC] PHP   8. trigger_error() /var/www/projects/wordpress/wp-includes/functions.php:3960
+[19-Apr-2017 09:03:47 UTC] PHP Notice:  Theme without comments.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /var/www/projects/wordpress/wp-includes/functions.php on line 3960
+[19-Apr-2017 09:03:47 UTC] PHP Stack trace:
+[19-Apr-2017 09:03:47 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 09:03:47 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 09:03:47 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 09:03:47 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 09:03:47 UTC] PHP   5. comments_template() /var/www/projects/wordpress/wp-content/themes/mytheme/single.php:30
+[19-Apr-2017 09:03:47 UTC] PHP   6. require() /var/www/projects/wordpress/wp-includes/comment-template.php:1473
+[19-Apr-2017 09:03:47 UTC] PHP   7. _deprecated_file() /var/www/projects/wordpress/wp-includes/theme-compat/comments.php:16
+[19-Apr-2017 09:03:47 UTC] PHP   8. trigger_error() /var/www/projects/wordpress/wp-includes/functions.php:3960
+[19-Apr-2017 09:07:01 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 09:07:01 UTC] PHP Stack trace:
+[19-Apr-2017 09:07:01 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 09:07:01 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 09:07:01 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 09:07:01 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 09:08:00 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 09:08:00 UTC] PHP Stack trace:
+[19-Apr-2017 09:08:00 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 09:08:00 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 09:08:00 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 09:08:00 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 09:28:10 UTC] PHP Notice:  Theme without comments.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /var/www/projects/wordpress/wp-includes/functions.php on line 3960
+[19-Apr-2017 09:28:10 UTC] PHP Stack trace:
+[19-Apr-2017 09:28:10 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 09:28:10 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 09:28:10 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 09:28:10 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 09:28:10 UTC] PHP   5. comments_template() /var/www/projects/wordpress/wp-content/themes/mytheme/single.php:30
+[19-Apr-2017 09:28:10 UTC] PHP   6. require() /var/www/projects/wordpress/wp-includes/comment-template.php:1473
+[19-Apr-2017 09:28:10 UTC] PHP   7. _deprecated_file() /var/www/projects/wordpress/wp-includes/theme-compat/comments.php:16
+[19-Apr-2017 09:28:10 UTC] PHP   8. trigger_error() /var/www/projects/wordpress/wp-includes/functions.php:3960
+[19-Apr-2017 09:28:11 UTC] PHP Notice:  Theme without comments.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /var/www/projects/wordpress/wp-includes/functions.php on line 3960
+[19-Apr-2017 09:28:11 UTC] PHP Stack trace:
+[19-Apr-2017 09:28:11 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 09:28:11 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 09:28:11 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 09:28:11 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 09:28:11 UTC] PHP   5. comments_template() /var/www/projects/wordpress/wp-content/themes/mytheme/single.php:30
+[19-Apr-2017 09:28:11 UTC] PHP   6. require() /var/www/projects/wordpress/wp-includes/comment-template.php:1473
+[19-Apr-2017 09:28:11 UTC] PHP   7. _deprecated_file() /var/www/projects/wordpress/wp-includes/theme-compat/comments.php:16
+[19-Apr-2017 09:28:11 UTC] PHP   8. trigger_error() /var/www/projects/wordpress/wp-includes/functions.php:3960
+[19-Apr-2017 09:47:11 UTC] PHP Notice:  Undefined variable: archive_content in /var/www/projects/wordpress/wp-content/themes/mytheme/404.php on line 29
+[19-Apr-2017 09:47:11 UTC] PHP Stack trace:
+[19-Apr-2017 09:47:11 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 09:47:11 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 09:47:11 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 09:47:11 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 09:47:11 UTC] PHP Notice:  Undefined index: WP_Widget_Archive in /var/www/projects/wordpress/wp-includes/widgets.php on line 1039
+[19-Apr-2017 09:47:11 UTC] PHP Stack trace:
+[19-Apr-2017 09:47:11 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 09:47:11 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 09:47:11 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 09:47:11 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 09:47:11 UTC] PHP   5. the_widget() /var/www/projects/wordpress/wp-content/themes/mytheme/404.php:29
+[19-Apr-2017 09:47:46 UTC] PHP Notice:  Undefined variable: archive_content in /var/www/projects/wordpress/wp-content/themes/mytheme/404.php on line 29
+[19-Apr-2017 09:47:46 UTC] PHP Stack trace:
+[19-Apr-2017 09:47:46 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 09:47:46 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 09:47:46 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 09:47:46 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 09:47:56 UTC] PHP Notice:  Undefined variable: archive_content in /var/www/projects/wordpress/wp-content/themes/mytheme/404.php on line 29
+[19-Apr-2017 09:47:56 UTC] PHP Stack trace:
+[19-Apr-2017 09:47:56 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 09:47:56 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 09:47:56 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 09:47:56 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 09:48:09 UTC] PHP Notice:  Undefined variable: archive_content in /var/www/projects/wordpress/wp-content/themes/mytheme/404.php on line 29
+[19-Apr-2017 09:48:09 UTC] PHP Stack trace:
+[19-Apr-2017 09:48:09 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 09:48:09 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 09:48:09 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 09:48:09 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 09:53:14 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 09:53:14 UTC] PHP Stack trace:
+[19-Apr-2017 09:53:14 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 09:53:14 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 09:53:14 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 09:53:14 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 09:57:27 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 09:57:27 UTC] PHP Stack trace:
+[19-Apr-2017 09:57:27 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 09:57:27 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 09:57:27 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 09:57:27 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 09:57:40 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 09:57:40 UTC] PHP Stack trace:
+[19-Apr-2017 09:57:40 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 09:57:40 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 09:57:40 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 09:57:40 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 09:57:44 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 09:57:44 UTC] PHP Stack trace:
+[19-Apr-2017 09:57:44 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 09:57:44 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 09:57:44 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 09:57:44 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 09:57:46 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 09:57:46 UTC] PHP Stack trace:
+[19-Apr-2017 09:57:46 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 09:57:46 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 09:57:46 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 09:57:46 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 09:57:46 UTC] PHP Notice:  Undefined variable: urlImg in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 31
+[19-Apr-2017 09:57:46 UTC] PHP Stack trace:
+[19-Apr-2017 09:57:46 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 09:57:46 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 09:57:46 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 09:57:46 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 09:57:46 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 09:57:46 UTC] PHP Stack trace:
+[19-Apr-2017 09:57:46 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 09:57:46 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 09:57:46 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 09:57:46 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 09:57:46 UTC] PHP Notice:  Undefined variable: urlImg in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 31
+[19-Apr-2017 09:57:46 UTC] PHP Stack trace:
+[19-Apr-2017 09:57:46 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 09:57:46 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 09:57:46 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 09:57:46 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 09:58:30 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 09:58:30 UTC] PHP Stack trace:
+[19-Apr-2017 09:58:30 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 09:58:30 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 09:58:30 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 09:58:30 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 09:58:30 UTC] PHP Notice:  Undefined variable: urlImg in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 31
+[19-Apr-2017 09:58:30 UTC] PHP Stack trace:
+[19-Apr-2017 09:58:30 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 09:58:30 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 09:58:30 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 09:58:30 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 09:58:31 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 09:58:31 UTC] PHP Stack trace:
+[19-Apr-2017 09:58:31 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 09:58:31 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 09:58:31 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 09:58:31 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 09:58:31 UTC] PHP Notice:  Undefined variable: urlImg in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 31
+[19-Apr-2017 09:58:31 UTC] PHP Stack trace:
+[19-Apr-2017 09:58:31 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 09:58:31 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 09:58:31 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 09:58:31 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 09:58:53 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 09:58:53 UTC] PHP Stack trace:
+[19-Apr-2017 09:58:53 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 09:58:53 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 09:58:53 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 09:58:53 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 09:58:53 UTC] PHP Notice:  Undefined variable: urlImg in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 31
+[19-Apr-2017 09:58:53 UTC] PHP Stack trace:
+[19-Apr-2017 09:58:53 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 09:58:53 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 09:58:53 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 09:58:53 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 09:58:53 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 09:58:53 UTC] PHP Stack trace:
+[19-Apr-2017 09:58:53 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 09:58:53 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 09:58:53 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 09:58:53 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 09:58:53 UTC] PHP Notice:  Undefined variable: urlImg in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 31
+[19-Apr-2017 09:58:53 UTC] PHP Stack trace:
+[19-Apr-2017 09:58:53 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 09:58:53 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 09:58:53 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 09:58:53 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 09:58:57 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 09:58:57 UTC] PHP Stack trace:
+[19-Apr-2017 09:58:57 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 09:58:57 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 09:58:57 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 09:58:57 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 09:59:05 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 09:59:05 UTC] PHP Stack trace:
+[19-Apr-2017 09:59:05 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 09:59:05 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 09:59:05 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 09:59:05 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 09:59:05 UTC] PHP Notice:  Undefined variable: urlImg in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 31
+[19-Apr-2017 09:59:05 UTC] PHP Stack trace:
+[19-Apr-2017 09:59:05 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 09:59:05 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 09:59:05 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 09:59:05 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 09:59:05 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 09:59:05 UTC] PHP Stack trace:
+[19-Apr-2017 09:59:05 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 09:59:05 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 09:59:05 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 09:59:05 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 09:59:05 UTC] PHP Notice:  Undefined variable: urlImg in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 31
+[19-Apr-2017 09:59:05 UTC] PHP Stack trace:
+[19-Apr-2017 09:59:05 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 09:59:05 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 09:59:05 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 09:59:05 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 09:59:09 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 09:59:09 UTC] PHP Stack trace:
+[19-Apr-2017 09:59:09 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 09:59:09 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 09:59:09 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 09:59:09 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 09:59:11 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 09:59:11 UTC] PHP Stack trace:
+[19-Apr-2017 09:59:11 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 09:59:11 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 09:59:11 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 09:59:11 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 09:59:11 UTC] PHP Notice:  Undefined variable: urlImg in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 31
+[19-Apr-2017 09:59:11 UTC] PHP Stack trace:
+[19-Apr-2017 09:59:11 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 09:59:11 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 09:59:11 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 09:59:11 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 09:59:11 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 09:59:11 UTC] PHP Stack trace:
+[19-Apr-2017 09:59:11 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 09:59:11 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 09:59:11 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 09:59:11 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 09:59:11 UTC] PHP Notice:  Undefined variable: urlImg in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 31
+[19-Apr-2017 09:59:11 UTC] PHP Stack trace:
+[19-Apr-2017 09:59:11 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 09:59:11 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 09:59:11 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 09:59:11 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 10:26:27 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 10:26:27 UTC] PHP Stack trace:
+[19-Apr-2017 10:26:27 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 10:26:27 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 10:26:27 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 10:26:27 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 10:26:27 UTC] PHP Notice:  Undefined variable: urlImg in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 31
+[19-Apr-2017 10:26:27 UTC] PHP Stack trace:
+[19-Apr-2017 10:26:27 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 10:26:27 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 10:26:27 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 10:26:27 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 10:26:28 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 10:26:28 UTC] PHP Stack trace:
+[19-Apr-2017 10:26:28 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 10:26:28 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 10:26:28 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 10:26:28 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 10:26:28 UTC] PHP Notice:  Undefined variable: urlImg in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 31
+[19-Apr-2017 10:26:28 UTC] PHP Stack trace:
+[19-Apr-2017 10:26:28 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 10:26:28 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 10:26:28 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 10:26:28 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 10:31:37 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 10:31:37 UTC] PHP Stack trace:
+[19-Apr-2017 10:31:37 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 10:31:37 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 10:31:37 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 10:31:37 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 10:31:37 UTC] PHP Notice:  Undefined variable: urlImg in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 31
+[19-Apr-2017 10:31:37 UTC] PHP Stack trace:
+[19-Apr-2017 10:31:37 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 10:31:37 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 10:31:37 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 10:31:37 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 10:31:37 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 10:31:37 UTC] PHP Stack trace:
+[19-Apr-2017 10:31:37 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 10:31:37 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 10:31:37 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 10:31:37 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 10:31:37 UTC] PHP Notice:  Undefined variable: urlImg in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 31
+[19-Apr-2017 10:31:37 UTC] PHP Stack trace:
+[19-Apr-2017 10:31:37 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 10:31:37 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 10:31:37 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 10:31:37 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 10:32:01 UTC] PHP Notice:  Undefined variable: archive_content in /var/www/projects/wordpress/wp-content/themes/mytheme/404.php on line 29
+[19-Apr-2017 10:32:01 UTC] PHP Stack trace:
+[19-Apr-2017 10:32:01 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 10:32:01 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 10:32:01 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 10:32:01 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 10:32:04 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 10:32:04 UTC] PHP Stack trace:
+[19-Apr-2017 10:32:04 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 10:32:04 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 10:32:04 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 10:32:04 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 10:32:17 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 10:32:17 UTC] PHP Stack trace:
+[19-Apr-2017 10:32:17 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 10:32:17 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 10:32:17 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 10:32:17 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 10:32:28 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 10:32:28 UTC] PHP Stack trace:
+[19-Apr-2017 10:32:28 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 10:32:28 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 10:32:28 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 10:32:28 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 10:35:36 UTC] PHP Notice:  Undefined variable: archive_content in /var/www/projects/wordpress/wp-content/themes/mytheme/404.php on line 29
+[19-Apr-2017 10:35:36 UTC] PHP Stack trace:
+[19-Apr-2017 10:35:36 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 10:35:36 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 10:35:36 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 10:35:36 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 10:36:08 UTC] PHP Notice:  Undefined variable: archive_content in /var/www/projects/wordpress/wp-content/themes/mytheme/404.php on line 29
+[19-Apr-2017 10:36:08 UTC] PHP Stack trace:
+[19-Apr-2017 10:36:08 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 10:36:08 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 10:36:08 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 10:36:08 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 10:36:35 UTC] PHP Notice:  Undefined variable: archive_content in /var/www/projects/wordpress/wp-content/themes/mytheme/404.php on line 29
+[19-Apr-2017 10:36:35 UTC] PHP Stack trace:
+[19-Apr-2017 10:36:35 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 10:36:35 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 10:36:35 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 10:36:35 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 10:37:24 UTC] PHP Notice:  Undefined variable: archive_content in /var/www/projects/wordpress/wp-content/themes/mytheme/404.php on line 29
+[19-Apr-2017 10:37:24 UTC] PHP Stack trace:
+[19-Apr-2017 10:37:24 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 10:37:24 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 10:37:24 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 10:37:24 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 10:37:27 UTC] PHP Notice:  Undefined variable: archive_content in /var/www/projects/wordpress/wp-content/themes/mytheme/404.php on line 29
+[19-Apr-2017 10:37:27 UTC] PHP Stack trace:
+[19-Apr-2017 10:37:27 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 10:37:27 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 10:37:27 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 10:37:27 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 10:37:43 UTC] PHP Notice:  Undefined variable: archive_content in /var/www/projects/wordpress/wp-content/themes/mytheme/404.php on line 29
+[19-Apr-2017 10:37:43 UTC] PHP Stack trace:
+[19-Apr-2017 10:37:43 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 10:37:43 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 10:37:43 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 10:37:43 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 10:38:23 UTC] PHP Notice:  map_meta_cap was called <strong>incorrectly</strong>. The post type potfolio is not registered, so it may not be reliable to check the capability "edit_post" against a post of that type. Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in /var/www/projects/wordpress/wp-includes/functions.php on line 4137
+[19-Apr-2017 10:38:23 UTC] PHP Stack trace:
+[19-Apr-2017 10:38:23 UTC] PHP   1. {main}() /var/www/projects/wordpress/wp-admin/admin-ajax.php:0
+[19-Apr-2017 10:38:23 UTC] PHP   2. do_action() /var/www/projects/wordpress/wp-admin/admin-ajax.php:91
+[19-Apr-2017 10:38:23 UTC] PHP   3. WP_Hook->do_action() /var/www/projects/wordpress/wp-includes/plugin.php:453
+[19-Apr-2017 10:38:23 UTC] PHP   4. WP_Hook->apply_filters() /var/www/projects/wordpress/wp-includes/class-wp-hook.php:323
+[19-Apr-2017 10:38:23 UTC] PHP   5. wp_ajax_wp_remove_post_lock() /var/www/projects/wordpress/wp-includes/class-wp-hook.php:298
+[19-Apr-2017 10:38:23 UTC] PHP   6. current_user_can() /var/www/projects/wordpress/wp-admin/includes/ajax-actions.php:2300
+[19-Apr-2017 10:38:23 UTC] PHP   7. WP_User->has_cap() /var/www/projects/wordpress/wp-includes/capabilities.php:530
+[19-Apr-2017 10:38:23 UTC] PHP   8. map_meta_cap() /var/www/projects/wordpress/wp-includes/class-wp-user.php:723
+[19-Apr-2017 10:38:23 UTC] PHP   9. _doing_it_wrong() /var/www/projects/wordpress/wp-includes/capabilities.php:139
+[19-Apr-2017 10:38:23 UTC] PHP  10. trigger_error() /var/www/projects/wordpress/wp-includes/functions.php:4137
+[19-Apr-2017 10:38:41 UTC] PHP Notice:  Undefined variable: archive_content in /var/www/projects/wordpress/wp-content/themes/mytheme/404.php on line 29
+[19-Apr-2017 10:38:41 UTC] PHP Stack trace:
+[19-Apr-2017 10:38:41 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 10:38:41 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 10:38:41 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 10:38:41 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 10:38:52 UTC] PHP Notice:  map_meta_cap was called <strong>incorrectly</strong>. The post type potfolio is not registered, so it may not be reliable to check the capability "edit_post" against a post of that type. Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in /var/www/projects/wordpress/wp-includes/functions.php on line 4137
+[19-Apr-2017 10:38:52 UTC] PHP Stack trace:
+[19-Apr-2017 10:38:52 UTC] PHP   1. {main}() /var/www/projects/wordpress/wp-admin/admin-ajax.php:0
+[19-Apr-2017 10:38:52 UTC] PHP   2. do_action() /var/www/projects/wordpress/wp-admin/admin-ajax.php:91
+[19-Apr-2017 10:38:52 UTC] PHP   3. WP_Hook->do_action() /var/www/projects/wordpress/wp-includes/plugin.php:453
+[19-Apr-2017 10:38:52 UTC] PHP   4. WP_Hook->apply_filters() /var/www/projects/wordpress/wp-includes/class-wp-hook.php:323
+[19-Apr-2017 10:38:52 UTC] PHP   5. wp_ajax_wp_remove_post_lock() /var/www/projects/wordpress/wp-includes/class-wp-hook.php:298
+[19-Apr-2017 10:38:52 UTC] PHP   6. current_user_can() /var/www/projects/wordpress/wp-admin/includes/ajax-actions.php:2300
+[19-Apr-2017 10:38:52 UTC] PHP   7. WP_User->has_cap() /var/www/projects/wordpress/wp-includes/capabilities.php:530
+[19-Apr-2017 10:38:52 UTC] PHP   8. map_meta_cap() /var/www/projects/wordpress/wp-includes/class-wp-user.php:723
+[19-Apr-2017 10:38:52 UTC] PHP   9. _doing_it_wrong() /var/www/projects/wordpress/wp-includes/capabilities.php:139
+[19-Apr-2017 10:38:52 UTC] PHP  10. trigger_error() /var/www/projects/wordpress/wp-includes/functions.php:4137
+[19-Apr-2017 10:39:09 UTC] PHP Notice:  Undefined offset: 1 in /var/www/projects/wordpress/wp-admin/includes/dashboard.php on line 1227
+[19-Apr-2017 10:39:09 UTC] PHP Stack trace:
+[19-Apr-2017 10:39:09 UTC] PHP   1. {main}() /var/www/projects/wordpress/wp-admin/admin-ajax.php:0
+[19-Apr-2017 10:39:09 UTC] PHP   2. do_action() /var/www/projects/wordpress/wp-admin/admin-ajax.php:91
+[19-Apr-2017 10:39:09 UTC] PHP   3. WP_Hook->do_action() /var/www/projects/wordpress/wp-includes/plugin.php:453
+[19-Apr-2017 10:39:09 UTC] PHP   4. WP_Hook->apply_filters() /var/www/projects/wordpress/wp-includes/class-wp-hook.php:323
+[19-Apr-2017 10:39:09 UTC] PHP   5. wp_ajax_dashboard_widgets() /var/www/projects/wordpress/wp-includes/class-wp-hook.php:298
+[19-Apr-2017 10:39:09 UTC] PHP   6. wp_dashboard_primary() /var/www/projects/wordpress/wp-admin/includes/ajax-actions.php:314
+[19-Apr-2017 10:39:09 UTC] PHP   7. wp_dashboard_cached_rss_widget() /var/www/projects/wordpress/wp-admin/includes/dashboard.php:1169
+[19-Apr-2017 10:39:09 UTC] PHP   8. wp_dashboard_primary_output() /var/www/projects/wordpress/wp-admin/includes/dashboard.php:999
+[19-Apr-2017 10:39:09 UTC] PHP   9. wp_dashboard_plugins_output() /var/www/projects/wordpress/wp-admin/includes/dashboard.php:1185
+[19-Apr-2017 10:39:27 UTC] PHP Notice:  Undefined variable: archive_content in /var/www/projects/wordpress/wp-content/themes/mytheme/404.php on line 29
+[19-Apr-2017 10:39:27 UTC] PHP Stack trace:
+[19-Apr-2017 10:39:27 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 10:39:27 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 10:39:27 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 10:39:27 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 10:39:39 UTC] PHP Notice:  Undefined variable: archive_content in /var/www/projects/wordpress/wp-content/themes/mytheme/404.php on line 29
+[19-Apr-2017 10:39:39 UTC] PHP Stack trace:
+[19-Apr-2017 10:39:39 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 10:39:39 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 10:39:39 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 10:39:39 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 10:42:39 UTC] PHP Notice:  Undefined variable: archive_content in /var/www/projects/wordpress/wp-content/themes/mytheme/404.php on line 29
+[19-Apr-2017 10:42:39 UTC] PHP Stack trace:
+[19-Apr-2017 10:42:39 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 10:42:39 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 10:42:39 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 10:42:39 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 10:45:12 UTC] PHP Notice:  Undefined variable: archive_content in /var/www/projects/wordpress/wp-content/themes/mytheme/404.php on line 29
+[19-Apr-2017 10:45:12 UTC] PHP Stack trace:
+[19-Apr-2017 10:45:12 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 10:45:12 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 10:45:12 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 10:45:12 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 10:45:19 UTC] PHP Notice:  Undefined variable: archive_content in /var/www/projects/wordpress/wp-content/themes/mytheme/404.php on line 29
+[19-Apr-2017 10:45:19 UTC] PHP Stack trace:
+[19-Apr-2017 10:45:19 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 10:45:19 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 10:45:19 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 10:45:19 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 10:45:24 UTC] PHP Notice:  Undefined variable: archive_content in /var/www/projects/wordpress/wp-content/themes/mytheme/404.php on line 29
+[19-Apr-2017 10:45:24 UTC] PHP Stack trace:
+[19-Apr-2017 10:45:24 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 10:45:24 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 10:45:24 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 10:45:24 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 10:46:34 UTC] PHP Notice:  Theme without comments.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /var/www/projects/wordpress/wp-includes/functions.php on line 3960
+[19-Apr-2017 10:46:34 UTC] PHP Stack trace:
+[19-Apr-2017 10:46:34 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 10:46:34 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 10:46:34 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 10:46:34 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 10:46:34 UTC] PHP   5. comments_template() /var/www/projects/wordpress/wp-content/themes/mytheme/single.php:30
+[19-Apr-2017 10:46:34 UTC] PHP   6. require() /var/www/projects/wordpress/wp-includes/comment-template.php:1473
+[19-Apr-2017 10:46:34 UTC] PHP   7. _deprecated_file() /var/www/projects/wordpress/wp-includes/theme-compat/comments.php:16
+[19-Apr-2017 10:46:34 UTC] PHP   8. trigger_error() /var/www/projects/wordpress/wp-includes/functions.php:3960
+[19-Apr-2017 10:46:44 UTC] PHP Notice:  Undefined variable: archive_content in /var/www/projects/wordpress/wp-content/themes/mytheme/404.php on line 29
+[19-Apr-2017 10:46:44 UTC] PHP Stack trace:
+[19-Apr-2017 10:46:44 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 10:46:44 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 10:46:44 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 10:46:44 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 10:47:22 UTC] PHP Notice:  Undefined variable: archive_content in /var/www/projects/wordpress/wp-content/themes/mytheme/404.php on line 29
+[19-Apr-2017 10:47:22 UTC] PHP Stack trace:
+[19-Apr-2017 10:47:22 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 10:47:22 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 10:47:22 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 10:47:22 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 10:47:25 UTC] PHP Notice:  Undefined variable: archive_content in /var/www/projects/wordpress/wp-content/themes/mytheme/404.php on line 29
+[19-Apr-2017 10:47:25 UTC] PHP Stack trace:
+[19-Apr-2017 10:47:25 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 10:47:25 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 10:47:25 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 10:47:25 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 10:47:36 UTC] PHP Notice:  Undefined variable: archive_content in /var/www/projects/wordpress/wp-content/themes/mytheme/404.php on line 29
+[19-Apr-2017 10:47:36 UTC] PHP Stack trace:
+[19-Apr-2017 10:47:36 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 10:47:36 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 10:47:36 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 10:47:36 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 11:52:57 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 11:52:57 UTC] PHP Stack trace:
+[19-Apr-2017 11:52:57 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 11:52:57 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 11:52:57 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 11:52:57 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 11:52:57 UTC] PHP Notice:  Undefined variable: urlImg in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 31
+[19-Apr-2017 11:52:57 UTC] PHP Stack trace:
+[19-Apr-2017 11:52:57 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 11:52:57 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 11:52:57 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 11:52:57 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 11:52:57 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 11:52:57 UTC] PHP Stack trace:
+[19-Apr-2017 11:52:57 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 11:52:57 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 11:52:57 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 11:52:57 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 11:52:57 UTC] PHP Notice:  Undefined variable: urlImg in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 31
+[19-Apr-2017 11:52:57 UTC] PHP Stack trace:
+[19-Apr-2017 11:52:57 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 11:52:57 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 11:52:57 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 11:52:57 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 11:53:16 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 11:53:16 UTC] PHP Stack trace:
+[19-Apr-2017 11:53:16 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 11:53:16 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 11:53:16 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 11:53:16 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 11:53:16 UTC] PHP Notice:  Undefined variable: urlImg in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 31
+[19-Apr-2017 11:53:16 UTC] PHP Stack trace:
+[19-Apr-2017 11:53:16 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 11:53:16 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 11:53:16 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 11:53:16 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 11:53:16 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 11:53:16 UTC] PHP Stack trace:
+[19-Apr-2017 11:53:16 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 11:53:16 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 11:53:16 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 11:53:16 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 11:53:16 UTC] PHP Notice:  Undefined variable: urlImg in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 31
+[19-Apr-2017 11:53:16 UTC] PHP Stack trace:
+[19-Apr-2017 11:53:16 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 11:53:16 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 11:53:16 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 11:53:16 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 12:28:09 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 12:28:09 UTC] PHP Stack trace:
+[19-Apr-2017 12:28:09 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 12:28:09 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 12:28:09 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 12:28:09 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 12:28:25 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 12:28:25 UTC] PHP Stack trace:
+[19-Apr-2017 12:28:25 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 12:28:25 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 12:28:25 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 12:28:25 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 12:29:26 UTC] PHP Notice:  Undefined variable: class in /var/www/projects/wordpress/wp-content/themes/mytheme/index.php on line 25
+[19-Apr-2017 12:29:26 UTC] PHP Stack trace:
+[19-Apr-2017 12:29:26 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 12:29:26 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 12:29:26 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 12:29:26 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 12:55:19 UTC] PHP Notice:  Theme without comments.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /var/www/projects/wordpress/wp-includes/functions.php on line 3960
+[19-Apr-2017 12:55:19 UTC] PHP Stack trace:
+[19-Apr-2017 12:55:19 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 12:55:19 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 12:55:19 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 12:55:19 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 12:55:19 UTC] PHP   5. comments_template() /var/www/projects/wordpress/wp-content/themes/mytheme/single.php:30
+[19-Apr-2017 12:55:19 UTC] PHP   6. require() /var/www/projects/wordpress/wp-includes/comment-template.php:1473
+[19-Apr-2017 12:55:19 UTC] PHP   7. _deprecated_file() /var/www/projects/wordpress/wp-includes/theme-compat/comments.php:16
+[19-Apr-2017 12:55:19 UTC] PHP   8. trigger_error() /var/www/projects/wordpress/wp-includes/functions.php:3960
+[19-Apr-2017 12:58:11 UTC] PHP Parse error:  syntax error, unexpected ')', expecting variable (T_VARIABLE) in /var/www/projects/wordpress/wp-content/themes/mytheme/functions.php on line 141
+[19-Apr-2017 13:05:11 UTC] PHP Notice:  Undefined variable: output in /var/www/projects/wordpress/wp-content/themes/mytheme/functions.php on line 156
+[19-Apr-2017 13:05:11 UTC] PHP Stack trace:
+[19-Apr-2017 13:05:11 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 13:05:11 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 13:05:11 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 13:05:11 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 13:05:11 UTC] PHP   5. my_theme_get_terms() /var/www/projects/wordpress/wp-content/themes/mytheme/single-portfolio.php:15
+[19-Apr-2017 13:05:11 UTC] PHP Notice:  Undefined variable: output in /var/www/projects/wordpress/wp-content/themes/mytheme/functions.php on line 156
+[19-Apr-2017 13:05:11 UTC] PHP Stack trace:
+[19-Apr-2017 13:05:11 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 13:05:11 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 13:05:11 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 13:05:11 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 13:05:11 UTC] PHP   5. my_theme_get_terms() /var/www/projects/wordpress/wp-content/themes/mytheme/single-portfolio.php:15
+[19-Apr-2017 13:05:11 UTC] PHP Notice:  Undefined variable: output in /var/www/projects/wordpress/wp-content/themes/mytheme/functions.php on line 158
+[19-Apr-2017 13:05:11 UTC] PHP Stack trace:
+[19-Apr-2017 13:05:11 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 13:05:11 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 13:05:11 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 13:05:11 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 13:05:11 UTC] PHP   5. my_theme_get_terms() /var/www/projects/wordpress/wp-content/themes/mytheme/single-portfolio.php:15
+[19-Apr-2017 13:05:11 UTC] PHP Notice:  Undefined variable: output in /var/www/projects/wordpress/wp-content/themes/mytheme/functions.php on line 158
+[19-Apr-2017 13:05:11 UTC] PHP Stack trace:
+[19-Apr-2017 13:05:11 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 13:05:11 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 13:05:11 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 13:05:11 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 13:05:11 UTC] PHP   5. my_theme_get_terms() /var/www/projects/wordpress/wp-content/themes/mytheme/single-portfolio.php:15
+[19-Apr-2017 13:05:14 UTC] PHP Notice:  Undefined variable: output in /var/www/projects/wordpress/wp-content/themes/mytheme/functions.php on line 156
+[19-Apr-2017 13:05:14 UTC] PHP Stack trace:
+[19-Apr-2017 13:05:14 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 13:05:14 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 13:05:14 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 13:05:14 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 13:05:14 UTC] PHP   5. my_theme_get_terms() /var/www/projects/wordpress/wp-content/themes/mytheme/single-portfolio.php:15
+[19-Apr-2017 13:05:14 UTC] PHP Notice:  Undefined variable: output in /var/www/projects/wordpress/wp-content/themes/mytheme/functions.php on line 156
+[19-Apr-2017 13:05:14 UTC] PHP Stack trace:
+[19-Apr-2017 13:05:14 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 13:05:14 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 13:05:14 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 13:05:14 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 13:05:14 UTC] PHP   5. my_theme_get_terms() /var/www/projects/wordpress/wp-content/themes/mytheme/single-portfolio.php:15
+[19-Apr-2017 13:05:14 UTC] PHP Notice:  Undefined variable: output in /var/www/projects/wordpress/wp-content/themes/mytheme/functions.php on line 156
+[19-Apr-2017 13:05:14 UTC] PHP Stack trace:
+[19-Apr-2017 13:05:14 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 13:05:14 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 13:05:14 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 13:05:14 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 13:05:14 UTC] PHP   5. my_theme_get_terms() /var/www/projects/wordpress/wp-content/themes/mytheme/single-portfolio.php:15
+[19-Apr-2017 13:05:14 UTC] PHP Notice:  Undefined variable: output in /var/www/projects/wordpress/wp-content/themes/mytheme/functions.php on line 156
+[19-Apr-2017 13:05:14 UTC] PHP Stack trace:
+[19-Apr-2017 13:05:14 UTC] PHP   1. {main}() /var/www/projects/wordpress/index.php:0
+[19-Apr-2017 13:05:14 UTC] PHP   2. require() /var/www/projects/wordpress/index.php:17
+[19-Apr-2017 13:05:14 UTC] PHP   3. require_once() /var/www/projects/wordpress/wp-blog-header.php:19
+[19-Apr-2017 13:05:14 UTC] PHP   4. include() /var/www/projects/wordpress/wp-includes/template-loader.php:74
+[19-Apr-2017 13:05:14 UTC] PHP   5. my_theme_get_terms() /var/www/projects/wordpress/wp-content/themes/mytheme/single-portfolio.php:15
