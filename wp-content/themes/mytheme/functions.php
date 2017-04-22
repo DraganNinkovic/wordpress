@@ -151,9 +151,9 @@ function my_theme_get_terms($id, $term){
   foreach ($terms_list as $term){
     $i++;
     if($i > 1){
-      $output .= ", ";
+      $retVal .= ", ";
     }
-    $output .= $term->name;
+    $retVal .= $term->name;
   }
-  return $output;
+  return $retVal;
 }
