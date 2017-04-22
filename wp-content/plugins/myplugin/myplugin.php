@@ -8,11 +8,16 @@
 
 class MyPlugin extends WP_Widget {
 	public function __construct() {
-		$widget_ops = array(
-			'classname'   => 'featured-page-widget',
-			'description' => 'Select pages that you want to be displayed on home page',
-		);
-		parent::__construct( 'featured_page', 'Featured Pages', $widget_ops );
+      $widget_ops = array(
+        'classname'   => 'featured-page-widget',
+        'description' => 'Select pages that you want to be displayed on home page',
+      );
+      add_action( "admin_print_scripts-widgets.php", array( __CLASS__, 'register_my_validation_script' ) );
+      parent::__construct( 'featured_page', 'Featured Pages', $widget_ops );
+	}
+
+	function register_my_validation_script() {
+		wp_enqueue_script( 'my-script-handle', plugins_url( '/save-validation.js', __FILE__ ), array( 'jquery' ), '1.0' );
 	}
 
 	// backend view
@@ -26,11 +31,13 @@ class MyPlugin extends WP_Widget {
           <select id="<?php echo $this->get_field_id( 'promotional_page' ); ?>"
                   name="<?php echo $this->get_field_name( 'promotional_page' ); ?>">
               <option value="0"><?php _e( '&mdash; Select &mdash;' ); ?></option>
-						<?php foreach ( $pages as $page ) : ?>
-                <option value="<?php echo esc_attr( $page->ID ); ?>" <?php selected( $promotional_page, $page->ID ); ?>>
-									<?php echo esc_html( $page->post_title ); ?>
-                </option>
-						<?php endforeach; ?>
+                  <?php foreach ( $pages as $page ) : ?>
+                    <?php if ($page->post_title != get_the_title( get_option('page_for_posts', true))): ?>
+                            <option value="<?php echo esc_attr( $page->ID ); ?>" <?php selected( $promotional_page, $page->ID ); ?>>
+                              <?php echo esc_html( $page->post_title ); ?>
+                            </option>
+                    <?php endif; ?>
+                  <?php endforeach; ?>
           </select>
       </p>
       <p>
@@ -58,14 +65,21 @@ class MyPlugin extends WP_Widget {
           </select>
       </p>
 		<?php
+	}
 
+	public function update($new_instance, $old_instance) {
+      if(count($new_instance['page_ids']) <= 4 && $new_instance['promotional_page']){
+        return $new_instance;
+      }else{
+        return $old_instance;
+      }
 	}
 
 	// frontend view
 	public function widget( $args, $instance ) {
 	    $promotional_page = isset( $instance['promotional_page'] ) ? $instance['promotional_page'] : '';
 		$page_ids         = isset( $instance['page_ids'] ) ? $instance['page_ids'] : '';
-
+        if($promotional_page):
 		$query = array(
 			'type'    => 'page',
 			'page_id' => $promotional_page,
@@ -77,16 +91,16 @@ class MyPlugin extends WP_Widget {
 		?>
                 <p>Promotional page:</p>
           <li>
-						<?php the_title( sprintf( '<h1 class="entry-title"><a href="%s">', esc_url( get_permalink() ) ), '</a></h1>' ); ?>
+                <?php the_title( sprintf( '<h1 class="entry-title"><a href="%s">', esc_url( get_permalink() ) ), '</a></h1>' ); ?>
               <a href="<?php echo get_permalink(); ?>"><?php the_post_thumbnail( 'full' ) ?></a>
           </li>
 				<?php
-
 			endwhile;
-
 		endif;
 		wp_reset_postdata();
+        endif;
 		?>
+
       <p>Featured pages:</p>
 		<?php
 		foreach ( $page_ids as $id ) {
